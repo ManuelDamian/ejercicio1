@@ -1,0 +1,24 @@
+.whyus-container {
+    background-color: #4BBFBC;
+    flex: 0 1 50%;
+    padding: 20px;
+}
+
+.whyus-container h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 2rem;
+}
+
+.whyus-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.whyus-container li{
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 10px;
+}

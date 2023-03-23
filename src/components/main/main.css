@@ -1,0 +1,18 @@
+.body{
+    background-color: #fcfcfc;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+}
+
+.section-container{
+    display: flex;
+    height: 60%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 660px){
+    .section-container {
+        flex-direction: column;
+    }
+}

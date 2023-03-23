@@ -1,0 +1,67 @@
+.monthly-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2AB3B1;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+    flex: 0 1 calc(50% - 60px);
+}
+
+.price {
+    display: flex;
+}
+
+.price h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    text-align: left;
+    color: white;
+    line-height: 37px;
+}
+
+.price h4 {
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    color: white;   
+    font-weight: lighter;
+}
+
+.singup {
+    height: 60px;
+    width: 90%;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    background-color: #C0DF33;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Karla', sans-serif;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20% ;
+    border: 0px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.33);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.singup:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
